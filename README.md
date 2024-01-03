@@ -18,3 +18,12 @@ points to note:
 always push package-lock.json to git as it contains dev dependencies and versions. it automatically manages versions to the server.
 
 never push node modules or any such folder/file to git which can be generated to npm commands as server runs it.
+
+
+LESSON NUMBER 3: Laying the foundation
+
+1. adding script in package.json.
+2. JSX is not html inside javascript, not a react part, it is a html like syntax.
+3. JSX code is transpiled before it reached the browser so that browsers can understand and run it.
+4. tranpiling is done by babel, which is a transpiler/compiler used by bundlers such as parcel/webpack.
+5. jsx is first converted to React.cloneElement and then to html and all this is done using transpiler/compiler which is used by bundlers.
