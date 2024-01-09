@@ -1,0 +1,9 @@
+# .gitignore
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Parcel folders
+.parcel-cache/
+dist/
